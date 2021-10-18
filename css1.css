@@ -10,7 +10,7 @@
     font-size: 30px;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover, .nadpis {
     color: #e9eef1;
 }
 
@@ -36,3 +36,17 @@
     border-color: #e9eef1;
 }
 
+.text {
+    padding-left: 20px;
+}
+.container {
+    background-color: green;
+    height: 1000px;
+    color: white;
+}
+
+.nadpis {
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
