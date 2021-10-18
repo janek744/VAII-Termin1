@@ -1,7 +1,5 @@
 .navbar {
     background-color: #002266;
-    background-size: cover;
-    position: relative;
 }
 
 .nav-link, .navbar-brand {
@@ -26,8 +24,7 @@
 
 .navbar-nav {
     left: 90%;
-    transform: translate( -75%, 0);
-    background-size: cover;
+    transform: translate(-75%, 0);
     position: absolute;
 }
 
@@ -38,3 +35,4 @@
 .custom-toggler.navbar-toggler {
     border-color: #e9eef1;
 }
+
