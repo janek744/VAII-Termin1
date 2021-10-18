@@ -18,6 +18,9 @@
     font-size: 25px;
 }
 
+.bi {
+    color: #ff4f01;
+}
 .nav-link:hover {
     color: white;
     background: #ff4f01;
