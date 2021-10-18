@@ -1,1 +1,11 @@
+.navbar {
+    background-color: #002266;
+}
 
+.nav-link, .navbar-brand {
+    color: #e9eef1;
+    font-weight: bold;
+}
+.navbar-brand {
+    font-size: 30px;
+}
