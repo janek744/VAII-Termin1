@@ -10,7 +10,7 @@
     font-size: 30px;
 }
 
-.navbar-brand:hover, .nadpish1, .nadpish2, .text, .custom-toggler.navbar-toggler {
+.navbar-brand:hover, .nadpish1, .nadpish2, .text, .custom-toggler.navbar-toggler, .copy, .border-bottom {
     color: #e9eef1;
 }
 
@@ -64,4 +64,13 @@
     padding-left: 15px;
     padding-bottom: 30px;
     padding-right: 30px;
+}
+
+.nav {
+justify-content: center;
+}
+
+.copy {
+    text-align: center;
+    font-weight: bold;
 }
