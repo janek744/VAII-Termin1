@@ -1,5 +1,7 @@
 .navbar {
     background-color: #002266;
+    background-size: cover;
+    position: relative;
 }
 
 .nav-link, .navbar-brand {
@@ -10,8 +12,23 @@
     font-size: 30px;
 }
 
+.navbar-brand:hover {
+    color: #e9eef1;
+}
+
 .nav-link {
     font-size: 25px;
+}
+
+.nav-link:hover {
+    color: #6b777f;
+}
+
+.navbar-nav {
+    left: 90%;
+    transform: translate( -75%, 0);
+    background-size: cover;
+    position: absolute;
 }
 
 .custom-toggler .navbar-toggler-icon {
