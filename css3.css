@@ -25,7 +25,8 @@ body {
 }
 
 .nav-item:first-child {
-    background-color: #938e94;
+    background-color: #557a95;
+    border-radius: 30px;
 }
 
 .bi, .nav-link:hover {
@@ -40,4 +41,9 @@ body {
 
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg%27%3E%3Cpath stroke='rgba(233,238,241, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.img-fluid {
+    height: 250px;
+    width: auto;
 }
