@@ -1,5 +1,5 @@
 body {
-    height: 2000px;
+    height: auto;
     background-color: #938e94;
 }
 .navbar {
@@ -8,7 +8,7 @@ body {
     position: sticky;
 }
 
-.nav-link, .navbar-brand {
+.nav-link, .navbar-brand, .nadpish2 {
     color: white;
     font-weight: bold;
 }
@@ -43,7 +43,21 @@ body {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg%27%3E%3Cpath stroke='rgba(233,238,241, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+.cont {
+    border-bottom: 15px;
+    border-style: solid;
+    border-color: #7395ae;
+    padding-left: 50px;
+}
+
 .img-fluid {
     height: 250px;
     width: auto;
+    border-radius: 30%;
+    border: 10px solid #5d5c61;
+}
+
+.nadpish2 {
+    padding: 20px;
+    font-size: 50px;
 }
