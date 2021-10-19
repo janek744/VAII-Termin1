@@ -1,3 +1,7 @@
+body {
+    background-color: darkgrey;
+}
+
 .navbar {
     background-color: black;
 }
@@ -82,4 +86,14 @@
 }
 .border-bottom {
     background-color: black;
+}
+
+.d-block {
+    height: 1000px;
+    width: auto;
+}
+
+.img-fluid {
+    height: 300px;
+    width: auto;
 }
