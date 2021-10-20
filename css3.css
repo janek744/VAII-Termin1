@@ -16,7 +16,7 @@ body {
     font-size: 30px;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover, .bif {
     color: white;
 }
 
@@ -29,7 +29,7 @@ body {
     border-radius: 30px;
 }
 
-.bi, .nav-link:hover {
+.bi-apple, .nav-link:hover, .bif:hover {
     color: #5d5c61;
 }
 
@@ -51,13 +51,26 @@ body {
 }
 
 .img-fluid {
-    height: 250px;
-    width: auto;
+    max-width: 100%;
+    height: auto;
     border-radius: 30%;
     border: 10px solid #5d5c61;
+}
+
+.img-fluid:hover {
+    transform: scale(1.10, 1.10);
 }
 
 .nadpish2 {
     padding: 20px;
     font-size: 50px;
+}
+
+.bif {
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+.footer {
+    text-align: center;
 }

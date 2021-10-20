@@ -1,6 +1,5 @@
 body {
     background-color: darkgrey;
-
 }
 
 .navbar {
@@ -95,6 +94,6 @@ body {
 }
 
 .img-fluid {
-    height: 300px;
-    width: auto;
+    max-width: 100%;
+    height: auto;
 }

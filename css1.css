@@ -59,8 +59,8 @@
 }
 
 .img-fluid {
-    height: 500px;
-    width: 1000px;
+    max-width: 100%;
+    height: auto;
     padding-left: 15px;
     padding-bottom: 30px;
     padding-right: 30px;
